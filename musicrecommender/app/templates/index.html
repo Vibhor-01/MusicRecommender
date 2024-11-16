@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body class='bg-primary'>
+
+    <div class="container">
+        <h1 class="text-center">Music Recommender</h1>
+        
+        <form action="predict/">
+            <table class="table">
+                <tr>
+                    <td>Enter Song</td>
+                    <td>
+                        <input class="form-control" type="text" placeholder="Enter Song" name="song">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Enter Number of Recommendations</td>
+                    <td>
+                        <input class="form-control" type="text" placeholder="Enter Number of Recommendations" name="number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="Reset" class="btn btn-danger">
+                    </td>
+                    <td>
+                        
+                        <input type="Submit" class="btn btn-secondary">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+</html>
